@@ -1,4 +1,4 @@
-# Use AWS S3 for StaticWeb Hosting
+# Use AWS S3 for Static Web Hosting
 
 ![](./images/banner.jpg)
 
