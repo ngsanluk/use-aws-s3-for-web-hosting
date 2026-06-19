@@ -45,7 +45,8 @@ This tutorial shows you how to use AWS S3 for static web hosting step-by-step. I
 4. **Object Ownership:**
    - Leave as default **Bucket owner preferred** (recommended).
 5. **Block Public Access settings for this bucket:**
-   - For simple S3-only hosting, uncheck **Block all public access**.
+   - For simple S3-only hosting, **uncheck** _"Block all public access"_.
+     ![](./images/edit-public-access-clear.png)
    - Confirm the warning by typing **confirm** when prompted.
 6. Leave other settings as default (versioning, encryption, tags) unless you have specific needs.
 7. Click **Create bucket**.
@@ -83,7 +84,7 @@ You’ll now see a **Bucket website endpoint** URL (e.g. `http://CourseCode-Your
 
 1. Go to the **Permissions** tab of the bucket.
 2. Scroll to **Bucket policy** and click **Edit**.
-3. Paste a policy like this, replacing `YOUR-BUCKET-NAME` with your actual bucket name:
+3. Paste a policy like this, replacing `YOUR-BUCKET-NAME` with your actual bucket name. Don't accidentaly delete any other part such as the ending`/*`.
 
    ```json
    {
