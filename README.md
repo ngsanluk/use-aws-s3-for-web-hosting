@@ -41,7 +41,7 @@ This tutorial shows you how to use AWS S3 for static web hosting step-by-step. I
 2. **Bucket name:**
    - Enter a globally unique name, e.g. `CourseCode-YourName-Website`.
 3. **AWS Region:**
-   - Choose a region close to your users (e.g. `Asia Pacific (Hong Kong)`).
+   - Choose a region. If you are using AWS Academy lab, you will have to stick the region that is pre-selected for you. If a real AWS account, one usually choose a region that is geographically close to your target audience.
 4. **Object Ownership:**
    - Leave as default **Bucket owner preferred** (recommended).
 5. **Block Public Access settings for this bucket:**
